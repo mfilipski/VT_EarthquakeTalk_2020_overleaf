@@ -1,0 +1,27 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{3}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}\\
+                    &\multicolumn{1}{c}{Full Sample}&\multicolumn{1}{c}{Full sample}&\multicolumn{1}{c}{No deaths in village}\\
+\hline
+Death rate x 2009   &      -0.116        &                    &                    \\
+                    &     (-0.39)        &                    &                    \\
+Death rate x 2011   &      \textbf{-0.177\sym{*}} &                    &                    \\
+                    &     (-1.82)        &                    &                    \\
+[1em]
+Pct. collapsed houses x 2009&                    &      \textbf{-0.049\sym{**}}&       \textbf{0.104\sym{**}}\\
+                    &                    &     (-2.32)        &      (7.00)        \\
+Pct. collapsed houses x 2011&                    &      \textbf{-0.028\sym{**}}&       \textbf{0.120\sym{**}}\\
+                    &                    &     (-2.28)        &      (4.55)        \\
+[1em]
+Household controls  &         Yes        &         Yes        &         Yes        \\
+Hypotheses controls &         Yes        &         Yes        &         Yes        \\
+\hline
+Observations        &        1767        &        1767        &         237        \\
+Households          &         589        &         589        &          79        \\
+Adjusted R-sq.      &       0.536        &       0.543        &       0.444        \\
+\hline\hline
+\multicolumn{4}{l}{\footnotesize \tiny{Includes all previous controls}}\\
+\end{tabular}
+}

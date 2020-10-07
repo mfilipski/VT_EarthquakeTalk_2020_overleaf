@@ -1,0 +1,21 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{3}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}\\
+                    &\multicolumn{1}{c}{OLS, FE}&\multicolumn{1}{c}{Poisson, FE}&\multicolumn{1}{c}{Tobit, RE}\\
+\hline
+Effects on frequency playing majiang:&                    &                    &                    \\
+Ln(Distance) x 2011 &      \textbf{-0.850\sym{**}}&      \textbf{-0.407\sym{**}}&      \textbf{-3.301\sym{**}}\\
+                    &     (-2.34)        &     (-2.64)        &     (-2.65)        \\
+Household controls  &         Yes        &         Yes        &         Yes        \\
+Hypotheses controls &         Yes        &         Yes        &         Yes        \\
+\hline
+Observations        &        1178        &         500        &        1178        \\
+Households          &         589        &         250        &         589        \\
+Adjusted R-sq.      &       0.011        &                    &                    \\
+Chi-sq.             &                    &      16.862        &      46.375        \\
+\hline\hline
+\multicolumn{4}{l}{\footnotesize \tiny{Includes all previous controls}}\\
+\end{tabular}
+}

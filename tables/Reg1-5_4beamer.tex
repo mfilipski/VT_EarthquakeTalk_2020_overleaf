@@ -1,0 +1,33 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{5}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}\\
+                    &\multicolumn{1}{c}{Sav. Rate}&\multicolumn{1}{c}{Sav. Rate}&\multicolumn{1}{c}{Sav. Rate}&\multicolumn{1}{c}{Sav. Rate}&\multicolumn{1}{c}{Sav. Rate}\\
+\hline
+\textbf{Explanatory Variables:}&                    &                    &                    &                    &                    \\
+Ln(Distance) x 2009 &       0.156\sym{**}&       0.172\sym{**}&       0.173\sym{**}&       0.174\sym{**}&       \textbf{0.170\sym{**}}\\
+                    &      (2.46)        &      (2.42)        &      (2.33)        &      (2.32)        &      (2.36)        \\
+Ln(Distance) x 2011 &       0.167        &       0.227\sym{**}&       0.230\sym{**}&       0.229\sym{**}&       \textbf{0.228\sym{**}}\\
+                    &      (1.64)        &      (2.72)        &      (2.78)        &      (2.72)        &      (2.72)        \\
+Income per capita (ln)&                    &       0.795\sym{**}&       0.795\sym{**}&       0.794\sym{**}&       0.795\sym{**}\\
+                    &                    &     (26.89)        &     (26.90)        &     (26.78)        &     (26.84)        \\
+Job loss in household&                    &     -0.0542        &     -0.0543        &     -0.0559        &     -0.0547        \\
+                    &                    &     (-1.48)        &     (-1.48)        &     (-1.53)        &     (-1.50)        \\
+CPI (village)       &                    &                    &     0.00106        &     0.00124        &     0.00128        \\
+                    &                    &                    &      (0.23)        &      (0.26)        &      (0.27)        \\
+Gifts given (RMB 1k)&                    &                    &                    &      0.0437        &      0.0464        \\
+                    &                    &                    &                    &      (0.42)        &      (0.44)        \\
+Loans given (RMB 1k)&                    &                    &                    &     -0.0255        &     -0.0262        \\
+                    &                    &                    &                    &     (-0.73)        &     (-0.75)        \\
+Gvt. aid (RMB 1k)   &                    &                    &                    &                    &    -0.00951        \\
+                    &                    &                    &                    &                    &     (-0.39)        \\
+Household controls  &         Yes        &         Yes        &         Yes        &         Yes        &         Yes        \\
+\hline
+Observations        &        1767        &        1767        &        1767        &        1767        &        1767        \\
+Households          &         589        &         589        &         589        &         589        &         589        \\
+Adjusted R-sq.      &       0.015        &       0.547        &       0.546        &       0.546        &       0.546        \\
+\hline\hline
+\multicolumn{6}{l}{\footnotesize \tiny{Includes all previous controls}}\\
+\end{tabular}
+}
